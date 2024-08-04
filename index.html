@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoptMe - Pet Adoption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><i>adoptme.com</i></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pets Section -->
+    <section id="pets" class="pet-cards">
+        <div class="container">
+            <h2>Meet Our Pets</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="dog.jpg" alt="Jerry">
+                    <h3>Meet Jerry</h3>
+                    <p>Jerry is a charming and friendly dog looking for a loving home. He has a heart of gold and is ready to bring endless joy into your life.</p>
+                    <button><a href="#contact">Adopt Me</a>
+                    </button>
+                </div>
+                <div class="card">
+                    <img src="cat.jpg" alt="Tom">
+                    <h3>Meet Tom</h3>
+                    <p>Tom is a handsome and affectionate cat waiting for his forever home. He is playful, loving, and ready to be your new best friend.</p>
+                    <button><a href="#contact">Adopt Me</a>
+                    </div>
+                <div class="card">
+                    <img src="rabbit.jpg" alt="Bella">
+                    <h3>Meet Bella</h3>
+                    <p>Bella is a sweet and gentle rabbit who loves to cuddle. She is looking for a quiet and loving home where she can relax and enjoy life.</p>
+                    <button><a href="#contact">Adopt Me</a>
+                </div>
+                <div class="card">
+                    <img src="parrot.jpg" alt="Polly">
+                    <h3>Meet Polly</h3>
+                    <p>Polly is a colorful and talkative parrot who enjoys interacting with people. She would love to be part of a family that can give her lots of attention.</p>
+                    <button><a href="#contact">Adopt Me</a>
+                    </div>
+                <div class="card">
+                    <img src="hamster.jpg" alt="Nibbles">
+                    <h3>Meet Nibbles</h3>
+                    <p>Nibbles is an energetic hamster who loves to explore and play. He is looking for a home where he can enjoy running around in his wheel and tunnels.</p>
+                    <button><a href="#contact">Adopt Me</a>
+                    </div>
+                <div class="card">
+                    <img src="turtle.jpg" alt="Shelly">
+                    <h3>Meet Shelly</h3>
+                    <p>Shelly is a calm and patient turtle who enjoys basking in the sun. She is looking for a peaceful home where she can live a long and happy life.</p>
+                    <button><a href="#contact">Adopt Me</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At AdoptMe, we believe that every pet deserves a loving home, and we're dedicated to making that belief a reality. Founded on the principles of compassion and responsibility, our mission is to connect caring individuals with pets in need of a second chance.</p>
+           <br> <p>We partner with local shelters and rescue organizations to provide a platform where pets can find their forever homes. Our team of volunteers and animal lovers work tirelessly to ensure each pet is given the love and care they deserve while waiting for their new family.</p>
+           <br> <p>Our commitment goes beyond just adoption. We provide resources and support to pet owners to ensure a smooth transition into their new home. From providing guidance on pet care to offering tips for adjusting to life with a new pet, we’re here to help every step of the way.</p>
+           <br> <p>We also engage in community outreach and educational programs to raise awareness about responsible pet ownership and the importance of animal welfare. By fostering a greater understanding of these issues, we aim to inspire more people to make a difference in the lives of animals.</p>
+           <br> <p>Join us in our mission to create a world where every pet finds a loving home. Whether you’re looking to adopt, volunteer, or support our cause, there are many ways you can get involved and help make a positive impact.</p>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you’re interested in adopting one of our pets or have any questions about the adoption process, please reach out using the form below.</p>
+            <form action="#" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pet-name">Pet Name</label>
+                <input type="text" id="pet-name" name="pet-name" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AdoptMe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
